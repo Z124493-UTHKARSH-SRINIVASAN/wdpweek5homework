@@ -67,8 +67,8 @@
         .then(data => {
           const randomIndex = Math.floor(Math.random() * data.length);
           const quote = data[randomIndex];
-          quoteText.textContent = `"${quote.text}"`;
-          authorText.textContent = `- ${quote.author}`;
+          quoteText.textContent = `"${quote.q}"`;
+          authorText.textContent = `- ${quote.a}`;
         })
         
 
