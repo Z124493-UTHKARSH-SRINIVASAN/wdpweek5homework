@@ -62,7 +62,7 @@
      
       //INPUT YOUR CODE HERE
       //HINT: Use fetch() to get quote from "quotes.json"
-      fetch("quotes.json")
+      fetch("/wdpweek5homework/part1/quotes.json")
         .then(response => response.json())
         .then(data => {
           const randomIndex = Math.floor(Math.random() * data.length);
