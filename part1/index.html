@@ -70,12 +70,7 @@
           quoteText.textContent = `"${quote.text}"`;
           authorText.textContent = `- ${quote.author}`;
         })
-        .catch(error => {
-          console.error("Error fetching the quote:", error);
-          quoteText.textContent = "Failed to load a quote.";
-          authorText.textContent = "";
-        });
-
+        
 
     }
     newQuoteBtn.addEventListener("click", getQuote);
